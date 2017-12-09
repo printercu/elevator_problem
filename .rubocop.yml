@@ -33,7 +33,7 @@ Layout/SpaceInsideHashLiteralBraces: {EnforcedStyle: no_space}
 Lint/AmbiguousBlockAssociation: {Enabled: false}
 
 # Metrics for good perception and expressiveness.
-# Metrics/AbcSize: {Max: 25}
+Metrics/AbcSize: {Max: 25}
 
 # Other metrics are just enough.
 # This one offences all specs, routes and some initializers.
@@ -45,6 +45,8 @@ Metrics/CyclomaticComplexity: {Max: 7}
 Metrics/LineLength: {Max: 100}
 Metrics/MethodLength:
   Max: 30
+
+Naming/VariableNumber: {EnforcedStyle: snake_case}
 
 Style/Alias: {EnforcedStyle: prefer_alias_method}
 

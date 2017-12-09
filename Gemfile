@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
+gem 'celluloid', '0.17.3'
+
 group :pry do
   gem 'awesome_print', '1.8.0'
   gem 'byebug', '9.1.0', platform: %i[mri]

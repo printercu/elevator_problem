@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'elevator_problem'
+
+begin
+  ElevatorProblem.run_cli
+rescue Interrupt
+  Celluloid.shutdown
+  puts 'Goodbye!'
+end

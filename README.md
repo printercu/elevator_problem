@@ -2,7 +2,14 @@
 
 ## Usage
 
-TODO: Write usage instructions here
+- Install ruby >= 2.4.
+- `bin/setup`
+- `bin/run`
+
+## Technical details
+
+It uses [celluloid](https://github.com/celluloid/celluloid) concurrency framework
+which provides actors model similar to Akka or Erlang.
 
 ## Development
 
